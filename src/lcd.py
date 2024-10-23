@@ -1,4 +1,4 @@
-import LCD1602
+from gpiozero import LCD1602
 import time
 
 def setup():
