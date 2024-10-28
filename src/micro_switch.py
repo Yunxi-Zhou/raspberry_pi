@@ -15,7 +15,7 @@ try:
         else:
             print('   LED2 ON')
             led2.on()
-            led2.off()
+            led1.off()
         sleep(0.5)
 except KeyboardInterrupt:
     print('Existing...')
