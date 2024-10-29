@@ -65,5 +65,6 @@ if __name__ == '__main__':
     while True:
         hum, temp = dht11.read_data()
         print(f'{time.time():.3f} temperature: {temp}C humidity: {hum}%')
+        time.sleep(2)
             
         
