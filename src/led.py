@@ -9,12 +9,14 @@ try:
         led.on()
         print('...LED ON')
     
-        sleep(0.5)
+        sleep(0.02)
     
         led.off()
         print('LED OFF...')
         
-        sleep(0.5)
+        sleep(0.02)
 except KeyboardInterrupt:
+    print('Exiting...')
+finally:
     pass
     
